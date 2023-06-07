@@ -8,6 +8,29 @@
         <li><input type="radio" name="sexo" value="masculino"> Masculino</li>
         <li><input type="radio" name="sexo" value="feminino"> Feminino</li>
     </div>
+    <select name="universidade">
+        <option>Selecione</option>
+        <option value="ufmg">UFMG</option>
+        <option value="usp">USP</option>
+        <option value="unicamp">UNICAMP</option>
+        <option value="unesp">UNESP</option>
+        <option value="ufrj">UFRJ</option>
+    </select>
+    <select name="tecnologias" multiple>
+        <option name="tecnologia" value="python">Python</option>
+        <option name="tecnologia" value="react">React</option>
+        <option name="tecnologia" value="mysql">MySQL</option>
+        <option name="tecnologia" value="mongodb">MongoDB</option>
+        <option name="tecnologia" value="javascript">JavaScript</option>
+        <option name="tecnologia" value="php">PHP</option>
+        <option name="tecnologia" value="figma">Figma</option>
+        <option name="tecnologia" value="next">Next.js</option>
+    </select>
+    
+    
+    <div class="div-check">
+        <input type="checkbox" name="termo-de-concordancia"> condordo com os termos
+    </div>
     <button>Incluir</button>
 </form>
 
@@ -35,5 +58,32 @@
     form > div > li {
         list-style: none;
         margin: 10px 0;
+    }
+    form > .div-check {
+        display: inline;
+        margin: 10px 0;
+        padding: 5px;
+        text-align: center;
+    }
+    form > select[name=universidade] {
+        margin: 10px 0;
+        padding: 5px;
+        width: 50%;
+        align-self: center;
+    }
+    form > select[name=tecnologias] {
+        margin: 10px 0;
+        padding: 5px;
+        width: 80%;
+        align-self: center;
+    }
+    form > select[name=tecnologias] > option {
+        padding: 3px;
+    }
+    form > select[name=tecnologias] > option:hover {
+        background-color: #ccc;
+    }
+    form > select[name=tecnologias] > option:checked {
+        background-color: #4fc54f;
     }
 </style>

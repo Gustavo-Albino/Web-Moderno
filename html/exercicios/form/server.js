@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.post('/usuarios', (req, resp) => {
     console.log(req.body)
     nome = req.body.nome
-    resp.send(`<h1>Parabéns ${nome}!</h1>`)
+    resp.send(`<h1>Parabéns ${nome.split(' ')[0]}!</h1>`)
 })
 
 app.listen(5005)
