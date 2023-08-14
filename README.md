@@ -29,5 +29,3 @@ Minha jornada inclui a aplicação prática do que aprendi em desafios e projeto
 Sinta-se à vontade para explorar, aprender e até mesmo contribuir para este repositório. O aprendizado é contínuo, e este repositório é uma evidência do meu compromisso em crescer como desenvolvedor web.
 
 Aproveite esta jornada comigo e divirta-se explorando o emocionante mundo do desenvolvimento web!
-
-![Desenvolvimento Web](https://example.com/web-development-image.png)
